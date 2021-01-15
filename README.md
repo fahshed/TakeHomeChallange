@@ -15,11 +15,11 @@ Problem solution for "Kaan Pete Roi" software development intern position.
 
 ### Processing
 - The `main()` function in `app.js` file takes a csv filename from `data` folder as argument.  
-  - Reads the records  of the file as json using `read()` funtion of the `csv-io` file.
-  - Makes a graph out of the records using `getGraphFromRecords()` function of the `graghGenerator` file.
+  - Reads the records  of the file as json using `read()` funtion of the `csv-io.js` file.
+  - Makes a graph out of the records using `getGraphFromRecords()` function of the `graghGenerator.js` file.
   - Gets the node pairs using `getAllNeighborPairs()` of the graph object. 
   - Prints the adjacency list and node pairs of the graph in console.
-  - Writes the node pairs in a csv file with a name pattern of `"output_inputFileName.csv"` into the output folder. Writing is done using the `write()` method of `csv-io` file.
+  - Writes the node pairs in a csv file with a name pattern of `"output_inputFileName.csv"` into the output folder. Writing is done using the `write()` method of `csv-io.js` file.
 - In the `index.js` file `app.main()` is called with an argument of the provided input csv file name. 
 
 ### Testing
