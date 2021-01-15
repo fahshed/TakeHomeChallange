@@ -9,6 +9,8 @@ const read = async (filename) => {
 };
 
 const write = async (filename, data) => {
+  if (data.length == 0)
+    data.push({ node1: "N/A", node2: "N/A", weight: "N/A" });
   stringify(
     data,
     {
