@@ -1,0 +1,28 @@
+{
+  "name": "takehomechallange",
+  "version": "1.0.0",
+  "description": "Problem solution for \"Kaan Pete Roi\" software development intern position",
+  "main": "index.js",
+  "dependencies": {
+    "csv-parse": "^4.14.2",
+    "csv-stringify": "^5.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imshmen/TakeHomeChallange.git"
+  },
+  "keywords": [
+    "Graph",
+    "CSV"
+  ],
+  "author": "Fahim Morshed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imshmen/TakeHomeChallange/issues"
+  },
+  "homepage": "https://github.com/imshmen/TakeHomeChallange#readme"
+}
