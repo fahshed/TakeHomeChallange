@@ -23,4 +23,4 @@ Problem solution for "Kaan Pete Roi" software development intern position.
 - In the `index.js` file `app.main()` is called with an argument of the provided input csv file name. 
 
 ### Testing
-- In `test.js` file, for all the csv files in `data` folder `app.main()` method is called. By this, the outputs and console logs for all the files in input folder will be generated. 
+- In `test.js` file, for all the csv files in `data` folder `app.main()` method is called. By this, the outputs and console logs for all the files in data folder will be generated. 
